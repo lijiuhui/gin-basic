@@ -1,0 +1,24 @@
+{
+  "mysql": {
+    "address": "127.0.0.1",
+    "port": "3306",
+    "user": "app",
+    "password": 123456,
+    "database": "legal"
+  },
+  "app": {
+    "address": "127.0.0.1",
+    "mode": "debug",
+    "port": "8080",
+	"name": "legal-api"
+  },
+  "jwt": {
+	"secret": "1234567",
+	"expire": 86400
+  },
+  "log": {
+	  "access_log": "runtime/log/access.log",
+	  "sql_log": "runtime/log/sql.log",
+	  "app_log": "runtime/log/app.log"
+  }
+}
